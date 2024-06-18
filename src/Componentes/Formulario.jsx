@@ -3,8 +3,10 @@ const Form = ({aceptado}) => {
         <>
         <div>
             <input type="text" placeholder="Ingresa tu usuario" /> <br />
-            <input type="text" placeholder="Ingresa tu contraseña" />
-            <button id="btnIn"> Iniciar Sesion</button>
+            <input type="passw" placeholder="Ingresa tu contraseña" />
+            <button id="btnIn" onClick={aceptado}> Iniciar Sesion</button>
+            <p id="txt"></p>
+
 
 
             {/* validar inicio sesion y agregar mensaje de bienvenida al entrrar*/}

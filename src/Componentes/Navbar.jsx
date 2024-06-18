@@ -1,15 +1,12 @@
-const NavBar = ({iniciada}) => {
+const NavBar = ({estado}) => {
     return(
         <>
-
       <nav>
          <ul>
           <a> Inicio </a> 
-          <a> {iniciada ? "Cerrar Sesion ": "Iniciar Sesion"} </a>
+          <a> {estado ? "Cerrar Sesion ": "Iniciar Sesion"} </a>
        </ul>
-
       </nav>
-
         </>
     )
 }
