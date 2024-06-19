@@ -1,8 +1,7 @@
-
 import NavBar from "./Componentes/Navbar.jsx"
 import  Form  from "./Componentes/Formulario.jsx"
 import Mensaje from "./Componentes/Mensaje.jsx"
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 function App() {
   const [aceptado , setInicia] = useState(false) 
